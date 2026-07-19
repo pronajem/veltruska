@@ -1,0 +1,168 @@
+/* CSS Document */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: initial;
+    text-shadow: 1px 1px 2px white;
+    margin: 0 auto;
+    line-height: 1.5;
+    min-width: 720px; 
+    background: #f9f9f9;    
+    color: #000000;
+  }
+  
+div {
+  float: none;
+  text-align: left;
+  }
+  
+a, h1, h2, h3, h4 {
+  text-decoration: none;
+  text-align: center;
+  color: #501616;
+  }
+  
+a:hover {
+  text-decoration: underline;
+  }
+   
+hr {
+    clear: both;
+    width: 100%;
+    }
+h1 {
+    font-size: 2em;
+    }
+h2, h3 {
+    font-size: 1.5em;
+    }
+h3 {
+    font-style: italic;
+}    
+
+header {   /* nadpis a podnadpis  f3d192*/
+    background: linear-gradient(#b3b3b3, #f9f9f9);
+    padding: 0 0 2em 0;
+    line-height: 1;
+    }
+
+/* @media screen and (max-width: 900px) {
+  .popis {     /*  dlouhý popisný text
+      text-align: left;
+      clear: both; 
+      padding: 0 1em ;
+      margin: 0 20%;   
+    }
+  }
+                        
+@media screen and (min-width: 900px) {
+  .popis {     /*  dlouhý popisný text 
+      text-align: justify;
+      clear: both; 
+      max-width: 90%;
+      padding: 0 2em ;
+      margin: 0 20%;   
+    }
+  }  
+  */
+  
+  .popis {     /*  dlouhý popisný text   */
+      text-align: left;
+      clear: both; 
+      margin: 1em 20% 2em 20%;   
+    }
+
+ 
+  .informace {
+   width: 80%;
+   clear: both;
+   margin: auto;
+  }
+
+  .prehled {   /* pøehledová tabulka   */
+    padding: 1em;
+    margin: 0 auto; 
+    width: 25em;
+    border: 2px solid black; 
+    background: white;
+        }
+  .levy, .pravy {      /* sloupeèky s údaji */
+
+    display: inline-block;
+    }
+  .levy {
+    padding: 0 1em 0 3em;
+    }
+  .pravy {    /* modrá  */
+ /*   color: #000080;     */
+    } 
+
+  .vyhody {     /* výhody */ 
+    padding: 0 1em;
+    margin: 1em auto;
+/*    color: #225500;    */
+    background: #c0ff95;
+    width: 25em;
+    border: 2px solid black;
+    }
+
+  .kontakt {     /* info ke kentaktu */ 
+    padding: 1em 1em 1em 2em;
+    margin: 1em 20%;   
+    color: white;
+    text-shadow:  0px 0px 0px black;  
+    background: #418b5f;
+    }
+
+
+  .fotky {  /* obal obrázkù */
+    max-width: 800px;
+    padding: 0 1em 1em 1.5em;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+    }
+
+   
+  .obrazek  {    /*  fotka + nad ní popisek, div */
+    text-align: center;
+    margin: 1.2em auto;
+    }
+  img.foto {  /*  jedna fotka */
+    height: 12em;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  
+  .obrazek2  {    /*  další fotka + nad ní popisek, div */
+    text-align: center;
+    margin: 1.2em auto;
+    }
+  .mapa {
+  text-align: center;
+    clear: both;
+  padding: 0 0 1em 0;
+  }
+  
+  .mail {     /*  kontakty */
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5em;
+    }
+  .ikona {
+    height: 1em;
+    }
+ 
+
+ ul {
+  font-weight: bold;
+  }
+  ul li {
+  font-weight: normal;
+  }
+   .barva1 {          /* zvýraznìní v textu  */
+  font-weight: bold;
+  } 
+  .index {     /*  metry ètvereèní */
+    vertical-align: super;
+    font-size: x-small;
+    }
